@@ -1,7 +1,5 @@
 package factory_pattern.abstract_factory_pattern;
 
-import factory_pattern.abstract_factory_pattern.BClassCar;
-
 public class BMWB implements BClassCar {
     @Override
     public void showClassB() {

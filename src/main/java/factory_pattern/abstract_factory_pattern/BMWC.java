@@ -1,6 +1,5 @@
 package factory_pattern.abstract_factory_pattern;
 
-import factory_pattern.abstract_factory_pattern.CClassCar;
 
 public class BMWC implements CClassCar {
     @Override

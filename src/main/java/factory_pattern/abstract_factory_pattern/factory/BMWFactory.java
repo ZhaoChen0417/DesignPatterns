@@ -5,7 +5,7 @@ import factory_pattern.abstract_factory_pattern.BMWB;
 import factory_pattern.abstract_factory_pattern.BMWC;
 import factory_pattern.abstract_factory_pattern.CClassCar;
 
-public class BMWFactory implements AbstractCarFactory{
+public class BMWFactory implements AbstractCarFactory {
     @Override
     public BClassCar build_B_ClassCar() {
         System.out.println("宝马车厂，生产B级车");
