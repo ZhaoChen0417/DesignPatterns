@@ -16,7 +16,7 @@ class Singleton {
     }
 
     //提供一个静态公有方法，当使用该方法时，才会去创建instance
-    //加入了同步代码，解决线程不安全问题
+    //使用同步方法，解决线程不安全问题
     public static synchronized Singleton getInstance() {
         if (instance == null) {
             instance = new Singleton();
